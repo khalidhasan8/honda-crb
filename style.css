@@ -1,0 +1,64 @@
+.overflow{
+    overflow-x: hidden;
+}
+
+/* -----------common style start---------- */
+
+.font-size{
+    font-size: 38px;
+}
+.text-color{
+    color: #E77C40;;
+}
+
+/* ------------common syle end----------  */
+
+.header-bg{
+    background-color: #264653;
+}
+.btn-purchase{
+    color: white;
+    background-color: #E76F51;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 50px 0 50px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+.filter{
+    filter: grayscale(100%);
+}
+.card-size{
+    max-width: auto;
+    height: 478px;
+}
+.user-name{
+    color: blue;
+}
+.fas{
+    font-size: 16px;
+}
+.fa-star, .fa-star-half-alt{
+    color: rgb(236, 148, 15);
+}
+.form-bg{
+    background-color: rgba(228, 177, 11, 0.527);
+}
+.next-feature{
+    color: rgb(146, 144, 144);
+    background-color: rgba(14, 13, 13, 0.979);
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.btn-buy-now{
+    border-radius: 8px;
+    padding: 9px 25px;
+    color: white;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff569a 100%);
+    border: none;
+}
