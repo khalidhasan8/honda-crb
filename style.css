@@ -27,13 +27,37 @@
     border: none;
     border-radius: 5px;
 }
-.filter{
-    filter: grayscale(100%);
+
+/* Featured bikes starts */
+#featured_bikes{
+    padding-top: 64px;
+    padding-bottom: 165px;
 }
+#featured_bikes .section_heading {
+    margin-bottom: 141px;
+}
+.fetur_bikes{
+    width: 288px;
+    margin: auto;
+}
+.fetur_bikes .grayscale3,
+.fetur_bikes .grayscale1 {
+   filter: grayscale(100%);
+}
+
+/* Featured bikes ends */
+
 .card-size{
     max-width: auto;
     height: 478px;
 }
+ .accordion-item {
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.815);
+    
+    margin-bottom: 15px;
+}
+
 .user-name{
     color: blue;
 }

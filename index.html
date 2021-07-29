@@ -67,21 +67,31 @@
       <main>
       
       <!--------------------------------- feture section  --------------------------->
-        <section class="container my-5">
-        <h1 class="text-center font-size fw-bold ">Fetured Bikes 2021</h1>
-        <h6 class="text-color text-center">Best bike collection</h6><br>
-        <div class="row g-5 my-5">
-          <div class=" col-lg-4 col-12">
-            <img class="mw-100 filter" src="images/feature-bike.jpg" alt="">
-          </div>
-          <div class=" col-lg-4 col-12">
-            <img class="mw-100" src="images/feature-bike.jpg" alt="">
-          </div>
-          <div class=" col-lg-4 filter col-12">
-            <img class="mw-100" src="images/feature-bike.jpg" alt="">
-          </div>
-        </div>
-      </section>
+        <section id="featured_bikes">
+          <div class="container">
+            <div class="section_heading">
+              <h3 class="text-center font-size fw-bold">Featured Bikes 2021</h3>
+              <p class="text-color text-center">Best bike collection</p><br>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="fetur_bikes">
+                  <img class="img-fluid grayscale1" src="images/feature-bike.jpg"  alt="">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fetur_bikes">
+                  <img class="img-fluid grayscale2" src="images/feature-bike.jpg"  alt="">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fetur_bikes">
+                  <img class="img-fluid grayscale3" src="images/feature-bike.jpg"  alt="">
+                </div>
+              </div>
+            </div>
+          </div> 
+        </section>
 
         <br><br><br>
        
@@ -159,66 +169,88 @@
       
        <!----------------------- FAQ section  --------------------------->
       
-      <section class="container my-5">
-          <h1 class="text-center font-size fw-bold my-5">Frequently Asked <span class="text-color"> Questions</span></h1><br>
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col">
-                <img class="mw-100" src="images/faq.png" alt="">
-            </div>
-            <div class="col mt-5">
-              <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      <strong>What are the most important things I should know about riding a bike?</strong>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body">
-                      Safety First! Always obey the rules of the road. Obey all trafficsignals, signs, and laws. Get in themindset of “driving” yourbike—not just “riding” your bike. This will help you be a morefocused and legally compliant bike rider. 
+      
+
+<section id="happy_clients">
+        <div class="section_heading">
+            <h3 class="text-center font-size fw-bold">Frequently<span class="text-color"> Asked Questions</span></h3><br><br>
+
+        </div>
+
+        <div class="container">
+          <div class="row">
+                <div class="col-lg-6">
+                    <div class="faq_img my-auto">
+                        <img src="images/faq.png" class="img-fluid" alt="">
                     </div>
-                  </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      <strong>How can i tell if my helmet is old and i need a new one?</strong>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body">
-                      Safety First! Always obey the rules of the road. Obey all trafficsignals, signs, and laws. Get in themindset of “driving” yourbike—not just “riding” your bike. This will help you be a morefocused and legally compliant bike rider.
+                <div class="col-lg-6">
+                    <div class="faq_accordion">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What are the most important things I should know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How can I tell if my helmet is old and I need a new one?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      <strong>My bike has been in storage is it safe to ride?</strong>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"   aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                      Safety First! Always obey the rules of the road. Obey all trafficsignals, signs, and laws. Get in themindset of “driving” yourbike—not just “riding” your bike. This will help you be a morefocused and legally compliant bike rider.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      <strong>What rules should i follow when riding my bike?</strong>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"   aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                      Safety First! Always obey the rules of the road. Obey all trafficsignals, signs, and laws. Get in themindset of “driving” yourbike—not just “riding” your bike. This will help you be a morefocused and legally compliant bike rider.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-      </section>
+        </div>
+    </section>
         
       <br><br><br>
       
@@ -348,4 +380,5 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
 </html>
